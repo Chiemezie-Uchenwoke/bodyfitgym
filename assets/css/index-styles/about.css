@@ -3,10 +3,12 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     gap: 4rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .about p,
-.about > div:nth-child(1) > h2{
+.about > div:nth-child(1) > div > h2{
     margin: 0;
 }
 
@@ -20,6 +22,7 @@
     filter: brightness(0.6);
     text-transform: capitalize;
     font-size: 0.8rem;
+    /* margin-bottom: 1rem; */
 }
 
 .about h2{
@@ -89,4 +92,14 @@
         text-align: justify;
     }
 
+    .about h2{
+        font-size: 2.2rem;
+    }
+
+}
+
+@media (min-width: 1000px){
+    .about h2{
+        font-size: 2.4rem;
+    }
 }
