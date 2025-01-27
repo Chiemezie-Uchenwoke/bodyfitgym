@@ -1,3 +1,4 @@
+// About Us
 const imageElement = document.getElementById("about-image");
 const images = ["building.jpg", "lady-gym.jpg", "practice.jpg"];
 
