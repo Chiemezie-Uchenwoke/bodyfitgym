@@ -24,6 +24,10 @@ header{
     letter-spacing: 0.3px;
 }
 
+.loadpage .col{
+    color: var(--sec-color)
+}
+
 .loadpage img{
     width: 6rem;
 }
