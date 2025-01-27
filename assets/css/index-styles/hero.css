@@ -187,5 +187,9 @@
     .ani-lift i{
         font-size: 1.5rem;
     }
+
+    .ani-lift{
+        bottom: 2.5rem;
+    }
     
 }
