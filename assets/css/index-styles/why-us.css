@@ -113,7 +113,7 @@
     }
 }
 
-@media (min-width: 768px){
+@media (min-width: 1000px){
     .why_choose_us h2{
         font-size: 2.4rem;
     }
