@@ -1,11 +1,3 @@
-:root{
-    --pri-color: #0d0d0d;
-    --acc-color-dark: #1E3E62;
-    --sec-color: #FF6500;
-    --white: #f6f6f6;
-    --text-color: #94a3b8;
-}
-
 .banner p{
     text-transform: capitalize;
     text-align: center;
@@ -25,7 +17,7 @@
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    background-color: rgba(30, 62, 98, 0.25);
+    background-color: rgba(26, 26, 26, 0.1);
 }
 
 .banner::before{
