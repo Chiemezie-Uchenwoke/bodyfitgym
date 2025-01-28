@@ -1,0 +1,77 @@
+:root{
+    --pri-color: #0d0d0d;
+    --acc-color-dark: #1E3E62;
+    --sec-color: #FF6500;
+    --white: #f6f6f6;
+    --text-color: #94a3b8;
+}
+
+.banner p{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.banner .col{
+    color: var(--sec-color);
+}
+
+.banner{
+    position: relative;
+    height: 18rem;
+    /* max-height: 22rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(30, 62, 98, 0.25);
+}
+
+.banner::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../../images/fac4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+    filter: brightness(0.3);
+}
+
+@media (min-width: 500px){
+    .banner p{
+        font-size: 1.7rem;
+    }
+}
+
+@media (min-width: 700px){
+    .banner{
+        padding: 5rem;
+    }
+
+    .banner p{
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 800px){
+    .banner{
+        padding: 8rem;
+    }
+
+    .banner p{
+        font-size: 2.2rem;
+    }
+}
+
+@media (min-width: 1000px){
+    .banner p{
+        font-size: 3rem;
+    }
+}
