@@ -87,8 +87,8 @@ li {
 .scroll__top{
     all: unset;
     cursor: pointer;
-    background-color: var(--sec-color-lite);
-    color: var(--pri-color);
+    background-color: var(--sec-color);
+    color: var(--white);
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 50%;
