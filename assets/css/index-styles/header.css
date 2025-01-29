@@ -149,13 +149,15 @@ header .mobile-dropdown a{
     filter: brightness(0.95);
 }
 
-.socials{
+.mobile .socials{
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
-
+.mobile .socials button i{
+    color: var(--sec-color);
+}
 
 /* Media Query */
 @media (min-width: 768px){
