@@ -44,6 +44,7 @@
 .why_choose_us .col{
     color: var(--sec-color);
     font-weight: 700;
+    filter: brightness(1.1);
 }
 
 .why_choose_us > div:nth-child(2){

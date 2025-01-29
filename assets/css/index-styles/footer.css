@@ -22,6 +22,7 @@ footer p{
 
 footer .loadpage{
     color: var(--white-color);
+    filter: brightness(1.1);
 }
 
 .name{

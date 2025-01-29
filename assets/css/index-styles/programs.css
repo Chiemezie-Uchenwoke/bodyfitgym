@@ -12,6 +12,7 @@
 
 .programs .col{
     color: var(--sec-color);
+    filter: brightness(1.1);
 }
 
 .programs > div > p,h2{
@@ -78,6 +79,11 @@
 
 .programs__content .icon i{
     font-size: 1.5rem;
+}
+
+.programs__content > div:hover i{
+    color: var(--sec-color);
+    filter: brightness(1.3);
 }
 
 .programs button{

@@ -22,6 +22,7 @@ header{
     align-items: center;
     gap: 0.5rem;
     letter-spacing: 0.3px;
+    filter: brightness(1.1);
 }
 
 .loadpage .col{
@@ -184,6 +185,7 @@ header .mobile-dropdown a{
     .desktop>a{
         font-size: 1.2rem;
         font-weight: 600;
+        filter: brightness(1.1);
     }
 
     .loadpage{

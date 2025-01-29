@@ -12,6 +12,7 @@
 
 .contact .col{
     color: var(--sec-color);
+    filter: brightness(1.1);
 }
 
 .contact > div > p,h2{
