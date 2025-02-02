@@ -5,7 +5,7 @@
 }
 
 .programs-intro{
-    filter: brightness(0.6);
+    filter: brightness(0.8);
     text-transform: capitalize;
     font-size: 0.8rem;
 }
@@ -54,7 +54,7 @@
 }
 
 .programs__content p{
-    filter: brightness(0.6);
+    filter: brightness(0.7);
     font-size: 0.87rem;
     font-weight: 400;
 }
@@ -79,18 +79,19 @@
 
 .programs__content .icon i{
     font-size: 1.5rem;
+    color: var(--pri-color);
 }
 
 .programs__content > div:hover i{
     color: var(--sec-color);
-    filter: brightness(1.3);
+    /* filter: brightness(1.3); */
 }
 
 .programs button{
     align-self: flex-start;
     border: none;
     background-color: var(--sec-color);
-    color: var(--white);
+    color: var(--pri-color);
     padding: 0.8rem 3rem;
     font-size: 1rem;
     margin-top: 0.8rem;
@@ -100,6 +101,7 @@
     align-self: flex-start;
     display: flex;
     align-items: center;
+    font-weight: 600;
 }
 
 .programs button:hover{

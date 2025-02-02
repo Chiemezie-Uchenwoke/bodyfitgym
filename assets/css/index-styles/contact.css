@@ -5,7 +5,7 @@
 }
 
 .contact-intro{
-    filter: brightness(0.6);
+    filter: brightness(0.8);
     text-transform: capitalize;
     font-size: 0.8rem;
 }
@@ -72,7 +72,7 @@
 .cont-adrs .icon{
     width: 2.6rem;
     height: 2.6rem;
-    border: 1px solid #FF6500;
+    border: 1px solid #FFC107;
     border-radius: 50%;
     /* filter: brightness(0.9); */
 }
@@ -113,13 +113,13 @@
 }
 
 .socials button:hover{
-    filter: brightness(0.95);
+    filter: brightness(0.98);
     transition: 0.3s ease-in-out;
 }
 
 .socials i{
     font-size: 1.5rem;
-    color: var(--white);
+    color: var(--pri-color);
     opacity: 0.9;
 }
 
@@ -186,7 +186,7 @@ form button{
     align-self: flex-start;
     border: none;
     background-color: var(--sec-color);
-    color: var(--white);
+    color: var(--pri-color);
     padding: 0.8rem 3rem;
     font-size: 1rem;
     margin-top: 0.8rem;
@@ -195,6 +195,7 @@ form button{
     cursor: pointer;
     display: flex;
     align-items: center;
+    font-weight: 600;
 }
 
 form button:hover{

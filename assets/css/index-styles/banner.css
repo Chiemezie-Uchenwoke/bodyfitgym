@@ -18,7 +18,7 @@
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    background-color: rgba(4, 36, 82, 0.1);
+    background-color: rgba(255, 255, 255, 0.15);
 }
 
 .banner::before{
