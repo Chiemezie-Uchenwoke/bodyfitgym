@@ -6,7 +6,8 @@
 }
 
 :root{
-    --pri-color: #043b2b;
+    /* --pri-color: #121212; */
+    --pri-color: #1A237E;
     --acc-color-dark: #1E3E62;
     --sec-color: #FFC107;
     --white: rgb(246, 246, 246);
